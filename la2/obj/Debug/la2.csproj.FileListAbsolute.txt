@@ -1,0 +1,6 @@
+c:\users\aryanz\documents\visual studio 2013\Projects\la2\la2\bin\Debug\la2.exe.config
+c:\users\aryanz\documents\visual studio 2013\Projects\la2\la2\bin\Debug\la2.exe
+c:\users\aryanz\documents\visual studio 2013\Projects\la2\la2\bin\Debug\la2.pdb
+c:\users\aryanz\documents\visual studio 2013\Projects\la2\la2\obj\Debug\la2.csprojResolveAssemblyReference.cache
+c:\users\aryanz\documents\visual studio 2013\Projects\la2\la2\obj\Debug\la2.exe
+c:\users\aryanz\documents\visual studio 2013\Projects\la2\la2\obj\Debug\la2.pdb

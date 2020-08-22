@@ -1,0 +1,319 @@
+Public Room id
+ { 
+    Public St Devoid Main()
+     {
+       Number r=5;
+       Point aBC=10;
+       Point Po* p;
+       p=&abc;
+     
+     }
+     Private Number a=5;
+     Private Point b=0.8;
+     Letter c=7;
+     Private Alpha d="kjdhsjf";
+     Devoid m()
+      { }
+ } 
+
+Room Superclass2
+ {
+  Number s=0;
+ }
+Room Subclass2 Extend Superclass2
+ {
+   Superclass2 b=Invoke Superclass2();  
+   Number num = 110;
+ }
+Room s Extend Subclass2
+ {
+  //polymorphism
+  Superclass2 w=Invoke Subclass2();
+  Subclass2 m=Invoke Subclass2();
+  Devoid k()
+  {
+  m.b.s=m.b.s++;
+  }
+}
+
+Public Room id2
+ {
+   Fixed Number F=12;
+   Devoid n()
+  {
+  id2 ob = Invoke id2();
+  ob.F=90;
+   }
+ }
+
+Private Room car
+        {
+          Public Fixed Devoid bus()
+         {
+         }
+        }
+Room ferrari Extend car
+        {
+            Public  Devoid fn()
+            {
+            }
+        }
+/*Fixed Room book
+ {
+    book()
+   {
+    c++;
+     }
+ }
+Room page Extend book
+        {
+        }*/
+Room A
+ {
+  St Number i=10;	     
+  Public St Devoid display()
+  {
+  }
+  Public St Devoid main()
+  {
+  i++;       
+  display();   	
+  }
+}
+Room C
+    {
+       Number a = 10;
+       Public Devoid message()
+        {     
+            Ref.a++;
+        }
+       Public Devoid hello()
+        {
+         While(i < 0)
+           {
+             While(3)
+              {
+                 Stop;
+               }
+                 Cont;
+            }
+           Agar (100)
+            {     }
+           Warna
+            {     }      
+          LOOP( j=0; 10;j++)
+            {
+	   Agar(j==5)
+            {
+		Stop;	
+             }
+            }
+        }
+    }
+Room dc
+{   
+      Public Devoid ma()
+        {   
+          C object = Invoke C();
+          object.message();
+        }
+    
+}
+/*Room Animal{
+Number a=9;  
+Devoid eat(){}  
+}  
+Room Dog Extend Animal{  
+Devoid bark(){}  
+Devoid work(){  
+Super.eat(); 
+Point gh=Super.a; 
+bark();  
+}  
+}
+Room TestSuper2{  
+Public Devoid mai(){  
+Dog d=Invoke Dog();  
+d.work();  
+}}  
+*/
+Room Person{  
+Number ids;  
+ALpha name;  
+Person(Number id,Alpha name){  
+Ref.id=ids;  
+Ref.name=name;  
+}  
+}  
+Room Emp Extend Person{  
+Point salary;  
+Emp(Number ids,Alpha name,Point salary){  
+Super(ids,name); 
+Ref.salary=salary;  
+}  
+}   
+Room Superclass
+{
+   Number num = 100;
+}
+Room Subclass Extend Superclass
+{
+   Number num = 110;
+   Devoid printNumber(){
+	Super.num++;
+   }
+}
+Room D
+{
+Number a;
+
+Public Devoid putValue(Number a)
+{        
+      	Ref.a=ghy; 
+}
+}
+Room E
+{
+
+Private E()		//no argument constructor.
+{
+}
+
+}
+Room F{
+Public Devoid function(){
+E obb=Invoke E();
+}
+}
+Room Names
+{
+Alpha firstName;
+Alpha secondName;
+
+Names(Alpha firstN, Alpha secondN)
+{
+firstNa=firstN;
+secondName=secondN;
+}
+}
+/*Room D
+{
+Public St Devoid fun2()
+{
+Number a=10, b=20;
+Letter ch1='a', ch2 ='b';
+Agar(a<15 && a>10){ }
+Names ob= Invoke Names("6","8"); //Calling a constructor with two String values to create an object.
+
+}
+}*/
+Room MathOP
+{
+MathOP(Number a, Number b)	//Constructor to add two integers
+{
+}
+MathOP(Alpha a, Alpha b)	//Constructor to add two integers
+{
+Number i=2;        //initializing i to 2
+i+=2;
+}
+MathOP(Letter a, Letter b)	//Constructor to add two integers
+{
+}
+}
+Room Cons
+{
+Public Devoid Fun3()
+{
+MathOP ob1= Invoke MathOP(1,2);
+MathOP ob2= Invoke MathOP("John","Denver");
+MathOP ob4= Invoke MathOP('a', 'b');
+}
+}
+Room operators
+{
+Public St Devoid main()
+{
+Number x=20, y=20;			
+
+Number sum = x + y; 		
+Number difference = x-y;      
+Number multiplication = x * y; 
+}
+}
+Room OP2
+    {
+        Number a = 20; //instance variable
+        Number b = 30; //instance variable
+        Number result;
+        Public St Devoid main()
+        {
+          OP2 ob = Invoke OP2();
+          ob.result = ob.a + ob.r; //addition of two instance variables of type int           
+          ob.result = ob.a - ob.b; //subtraction of two instance variables of type int
+          ob.result = ob.a * ob.b; //multiplication of two instance variables of type int           
+        }
+    }
+Public Room id
+ {  
+   Public St Devoid Ma()
+    {
+       Number r=5;
+     }
+      Number a=5;
+      Point b=0.8;
+      Number c=7;
+      Number x=2;
+      Number y=2;
+      Number z=2;
+      Alpha d="kjdhsjf";
+      Devoid m()
+      { 
+      LOOP(Number j=0;j< b*c/d;j+=2)
+       {
+         x=y*z;
+       }     
+       While(b<c)
+        {
+         a=b*c;
+         Agar(a==b)
+           {b++;}
+         Warna{a=x*y;}
+          c++;
+             } 
+     }
+   } 
+/*Public Room id2
+ {
+ Fixed Number F=12;
+ Number a=5;
+   Point b=0.8;
+   Number c=7;
+ Point m(Number x,Number y)
+      { 
+       Number a=b*c;
+        While(b<c)
+          {
+            a=b;     
+            b++;  
+          } 
+         Agar(b==c){a=b;}
+         Warna {b=a;}
+         x++;
+     Ret a;
+        }
+  Number sum(Number a,Number y)
+{
+  Ret a;
+}
+      LOOP(Number i=0;i<5;i++)
+            {
+             Stop;
+               x=y*z;
+            Cont;
+	    }
+            y++;   
+             }
+    
+   
+}*/
